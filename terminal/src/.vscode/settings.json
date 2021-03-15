@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "docuproc.h": "c",
+        "cmdproc.h": "c"
+    }
+}
