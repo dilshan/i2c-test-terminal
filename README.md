@@ -19,5 +19,5 @@ In 3.3V mode, the required output level is available only if the emulator is in 
 This project is an open-source hardware project. All the content of this project are distributed under the terms of the following license:
 
 -   Hardware License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
--   Software and firmware License: [MIT](https://github.com/dilshan/max2-audio-dac/blob/master/LICENSE)
+-   Software and firmware License: [MIT](https://github.com/dilshan/i2c-test-terminal/blob/main/LICENSE)
 -   [Documentation](https://github.com/dilshan/max2-audio-dac/wiki) License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
