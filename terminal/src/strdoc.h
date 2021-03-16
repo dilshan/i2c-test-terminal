@@ -59,14 +59,14 @@
 #define HELP_INIT_SPEED_250     "250: 250kHz"
 #define HELP_INIT_SPEED_400     "400: 400kHz"
 
-#define HELP_INIT_WARNING1  "\nThis command must issue to the test terminal before continue with any"
-#define HELP_INIT_WARNING2  "I2C command(s).\n"
+#define HELP_INIT_WARNING1  "\nThis command must issue before continue with any I2C request."
+#define HELP_INIT_WARNING2  "\n"
 
 // Help for START command.
 
 #define HELP_START_FORMAT   "Format: start"
 #define HELP_START_INTRO1   "\nIssue this command to raise the I2C START condition. Each I2C"
-#define HELP_START_INTRO2   "command initiated by the I2C test terminal starts with a START"
+#define HELP_START_INTRO2   "session initiated by the I2C test terminal must with a START"
 #define HELP_START_INTRO3   "condition.\n"
 
 // Help for STOP command.
@@ -86,7 +86,7 @@
 
 #define HELP_WRITE_ADDR_FORMAT  "Format: write-address [VALUE]"
 #define HELP_WRITE_ADDR_INTRO1  "\nWrite slave address into the I2C bus. In this command, \033[1m\033[37m[VALUE]\033[0m is a"
-#define HELP_WRITE_ADDR_INTRO2  "combination of the 7-bit slave address with the read/write flag bit. The"
+#define HELP_WRITE_ADDR_INTRO2  "combination of a 7-bit slave address with the read/write flag bit. The"
 #define HELP_WRITE_ADDR_INTRO3  "\033[1m\033[37m[VALUE]\033[0m parameter accepts (base 10) integer or hexadecimal value. All"
 #define HELP_WRITE_ADDR_INTRO4  "hexadecimal values must begin with the \"\033[1m\033[37m0x\033[0m\" prefix.\n"
 
