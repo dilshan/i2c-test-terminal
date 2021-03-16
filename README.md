@@ -4,7 +4,7 @@
 
 The I2C master mode emulator allows communication with I2C devices by sending or receiving data to/from the I2C bus. To issue the I2C commands, the emulator should connect to a PC over the USB port. After initializing the emulator, the PC and directly control the I2C slave chip/module.
 
-This emulator is base on [ATmega16A](https://www.microchip.com/wwwproducts/en/ATmega16A) MCU. The USB communication channel is develop using the [V-USB](https://www.obdev.at/products/vusb/index.html) firmware.
+This emulator is based on [ATmega16A](https://www.microchip.com/wwwproducts/en/ATmega16A) MCU. The USB communication channel is develop using the [V-USB](https://www.obdev.at/products/vusb/index.html) firmware.
 
 To simplify the assembly, the PCB of this emulator is designed on a single-side board. The dimensions of the PCB are 96.77mm × 110.73mm. All the parts used in this project are through-hole-type, generally available components.
 
